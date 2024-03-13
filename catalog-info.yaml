@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: component
+kind: Component
 metadata:
   name: angular-pwa-poc-api
   description: Terrible api that drives the PWA POC
