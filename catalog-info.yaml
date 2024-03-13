@@ -1,0 +1,13 @@
+apiVersion: Angular.PWA.POC.API/v1
+kind: API
+metadata:
+  name: angular-pwa-poc-api
+  description: Terrible api that drives the PWA POC
+  tags:
+    - dotnet
+spec:
+  type: openapi
+  lifecycle: production
+  owner: Pete
+  $text: http://localhost:8000/swagger/v1/swagger.json
+  
